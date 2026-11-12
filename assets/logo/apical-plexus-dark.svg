@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 800 250"
+   width="800"
+   height="250"
+   version="1.1"
+   id="svg-apical-plexus-dark"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs id="defs-plexus-dark" />
+  <g
+     id="layer-apica"
+     transform="translate(2.1992186,-7.5854492)"
+     style="fill:#ececec">
+    <text
+       x="415"
+       y="175"
+       text-anchor="end"
+       fill="#f2f0e6"
+       font-family="Inter, 'Helvetica Neue', Roboto, Arial, sans-serif"
+       font-size="140px"
+       font-weight="700"
+       letter-spacing="-3"
+       id="text1"
+       style="fill:#ececec">apica</text>
+  </g>
+  <g
+     id="layer-operator"
+     transform="translate(10.199219,-7.5854492)">
+    <rect
+       id="bar-l1"
+       x="432"
+       y="66"
+       width="13"
+       height="116"
+       fill="#00e5ff" />
+    <rect
+       id="bar-l2"
+       x="455"
+       y="66"
+       width="13"
+       height="116"
+       fill="#b388ff" />
+    <text
+       id="bound-t"
+       x="473"
+       y="68"
+       text-anchor="start"
+       fill="#b388ff"
+       font-family="'Latin Modern Math', 'Cambria Math', 'Times New Roman', serif"
+       font-size="34px"
+       font-style="italic">t</text>
+    <text
+       id="bound-0"
+       x="426"
+       y="194"
+       text-anchor="end"
+       fill="#00e5ff"
+       font-family="'Latin Modern Math', 'Cambria Math', 'Times New Roman', serif"
+       font-size="32px">0</text>
+    <text
+       id="bound-i"
+       x="473"
+       y="192"
+       text-anchor="start"
+       fill="#b388ff"
+       font-family="'Latin Modern Math', 'Cambria Math', 'Times New Roman', serif"
+       font-size="32px"
+       font-style="italic">i</text>
+    <text
+       id="bound-sigma"
+       x="450"
+       y="216"
+       text-anchor="middle"
+       fill="#00e5ff"
+       font-family="'Latin Modern Math', 'Cambria Math', 'Times New Roman', serif"
+       font-size="32px"
+       font-style="italic">σ</text>
+  </g>
+  <g
+     id="layer-abs"
+     style="fill:#ececec"
+     transform="translate(10.199219,-7.5854492)">
+    <text
+       x="485"
+       y="175"
+       text-anchor="start"
+       fill="#F2F0E6"
+       font-family="Inter, 'Helvetica Neue', Roboto, Arial, sans-serif"
+       font-size="140px"
+       font-weight="700"
+       letter-spacing="-3"
+       id="text2"
+       style="fill:#ececec">abs</text>
+  </g>
+</svg>

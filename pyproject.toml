@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "apical"
+version = "0.5.5"
+description = "Apical Labs — Zero-Retention Continual Memory & Embedding Router"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "Apache-2.0" }
+authors = [
+    { name = "Apical Labs Ltd", email = "research@apical-labs.com" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Security :: Cryptography",
+]
+dependencies = [
+    "numpy>=1.24.0",
+    "httpx>=0.25.0",
+    "cryptography>=41.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-asyncio>=0.21.0",
+]
+
+[project.urls]
+Homepage = "https://apical-labs.com"
+Documentation = "https://apical-labs.com/docs"
+Repository = "https://github.com/apicallabs/apical-sdk"
+Changelog = "https://github.com/apicallabs/apical-sdk/releases"
+
+[project.scripts]
+apical = "apical.__main__:main"
+apical-mcp = "apical.mcp.server:main"
+apical-proxy = "apical.proxy:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["apical*"]
